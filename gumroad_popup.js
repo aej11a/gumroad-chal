@@ -46,7 +46,6 @@ function initGumroadFrames() {
         }
     })
 
-    //const productIds = Array.from(linkNodes, node => (new URL(node.getAttribute('href')).pathname.substring(1)))
     const links = Array.from(linkNodes, node => node.getAttribute('href'))
 
     links.forEach((link, idx) => {
