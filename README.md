@@ -16,7 +16,7 @@ If I had more time, I would've added better mobile styling for the iframe, and i
 
 ## Data Modeling
 
-Seller <1----*> Product <1----*> Purchase
+Seller <1----\*> Product <1----\*> Purchase
 
 To achieve this structure, I would have a separate table for each structure (seller, product, and purchase). 
 Along with all of the basic info for each structure:
