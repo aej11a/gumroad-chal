@@ -4,11 +4,15 @@ Uses an edge-based approach, moving in from the outside, and keeps running total
 
 ## Frontend Challenge
 
+Demo here: [https://andrewjones.me/L53IXF/gumroad-demo](https://andrewjones.me/L53IXF/gumroad-demo)
+
 Supports profile links
 Supports multiple products or profile links on the same page
 Supports styled or unstyled variants
 Preloading built-in
 Lazy-loaded so that we don't negatively impact our creators' sites where they're embedding this iframes
+
+If I had more time, I would've added better mobile styling for the iframe, and iframe deduplication (if the same link shows twice, ideally we would only create one iframe for that link)
 
 ## Data Modeling
 
