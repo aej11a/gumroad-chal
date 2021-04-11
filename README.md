@@ -26,4 +26,5 @@ I would create an index with the purchase date-time, `amount_paid_to_seller`, th
 The index would enable efficient refunds:
 -   When a purchase is created, we would get the seller's ID and increase the seller balance.
 -   When a purchase is refunded, we would get the seller's ID and decrease their balance by `amount_paid_to_seller`.
+
 The date-time field could also be used to very efficiently query for purchases in the date range of the payout, and we could then decrease the seller balance as the sellers are paid.
